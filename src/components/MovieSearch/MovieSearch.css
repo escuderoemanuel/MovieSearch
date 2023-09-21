@@ -11,7 +11,7 @@
 /* FORM */
 .form {
   display: flex;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem;
 }
 
 .input {
@@ -71,7 +71,6 @@
 }
 
 .cardText {
-  font-size: 0.75em;
   display: flex;
   flex-direction: column;
   justify-content: start;
