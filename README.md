@@ -13,7 +13,7 @@ _Web application to search for movies, read their summaries and watch their trai
 
 ### About the project
 
-- URL: https://----/
+- URL: (https://https://emanuel-moviesearch.netlify.app/)
 - Github Repository: (https://github.com/escuderoemanuel/MovieSearch)
 - Author: Emanuel Escudero
 
