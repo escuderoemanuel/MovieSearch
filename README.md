@@ -42,6 +42,7 @@ _In the browser, go to the following path_
 - [React] (https://reactjs.org/) - Javascript Framework/Library - Version 18.2.0
 - [GoogleFonts] (https://fonts.google.com/) - Text Fonts
 - [Icons8] (https://icons8.com/) - Icons Library
+- [TheMovieDataBase] (https://www.themoviedb.org/) - Movies API
 
 ### FrontEnd Deployment With
 
