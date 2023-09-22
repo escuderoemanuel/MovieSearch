@@ -1,8 +1,50 @@
-# React + Vite
+# MovieSearch!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Emanuel Escudero
 
-Currently, two official plugins are available:
+##### FrontEnd Developer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Web application to search for movies, read their summaries and watch their trailers._
+
+### Created With
+
+- [React] (https://reactjs.org/) - Javascript Framework/Library - Version 18.2.0
+- [Vite] (https://vitejs.dev/)
+
+### About the project
+
+- URL: https://----/
+- Github Repository: (https://github.com/escuderoemanuel/MovieSearch)
+- Author: Emanuel Escudero
+
+### Requirements
+
+_It is necessary to install the dependencies listed in the package.json file_
+
+`npm i`
+
+### Execution
+
+`npm run dev`
+
+_In the browser, go to the following path_
+
+`http://localhost:3000/` Or the port provided by the 'npm run dev' command
+
+### Technologies & Tools
+
+---
+
+- [VisualStudioCode] (https://code.visualstudio.com/) - Code Editor
+- [HTML5] HyperText Markup Language
+- [CSS3] Cascading Style Sheets
+- [Javascript] (https://www.javascript.com/) - Scripting language
+- [React] (https://reactjs.org/) - Javascript Framework/Library - Version 18.2.0
+- [GoogleFonts] (https://fonts.google.com/) - Text Fonts
+- [Icons8] (https://icons8.com/) - Icons Library
+
+### FrontEnd Deployment With
+
+---
+
+- [Netlify] (https://www.netlify.com/) -
