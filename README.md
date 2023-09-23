@@ -1,5 +1,7 @@
 # MovieSearch!
 
+![Project Poster](https://i.ibb.co/3hBSSRq/Movie-Search.jpg)
+
 ## Emanuel Escudero
 
 ##### FrontEnd Developer
