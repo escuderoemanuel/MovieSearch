@@ -1,4 +1,4 @@
-import './MovieSearch.css';
+import './MoviesSearch.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import YouTube from 'react-youtube';
