@@ -1,6 +1,6 @@
 import './Header.css';
-import appIcon from '../../img/popcorn.png';
-import faces from '../../img/faces.png';
+import appIcon from '../../assets/img/popcorn.png';
+import faces from '../../assets/img/faces.png';
 export const Header = () => {
   return (
     <div className='header'>

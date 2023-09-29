@@ -2,13 +2,9 @@ import './MovieSearch.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import YouTube from 'react-youtube';
+import { API_URL, API_KEY, IMAGE_PATH } from '../../constants/config';
 
 export const MovieSearch = () => {
-  /* Consts */
-  const API_URL = 'https://api.themoviedb.org/3';
-  const API_KEY = '6d5c35b1318a5613327bf5a4c07f2e1d';
-  const IMAGE_PATH = 'https://image.tmdb.org/t/p/original';
-
   /* States */
   const [movies, setMovies] = useState([]);
   const [searchKey, setSearchKey] = useState('');
