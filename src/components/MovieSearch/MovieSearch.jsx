@@ -140,7 +140,7 @@ export const MovieSearch = () => {
                       className='playTrailerButton'
                       onClick={() => setPlaying(true)}
                       type='button'>
-                      Play Trailer
+                      Play Trailer!
                     </button>
                   ) : (
                     'Sorry, no trailer available'
