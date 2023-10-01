@@ -2,9 +2,11 @@ import './MovieSearch.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import YouTube from 'react-youtube';
-import { API_URL, API_KEY, IMAGE_PATH, OTRA } from '../../constants/config.js';
 
 export const MovieSearch = () => {
+  const API_KEY = import.meta.env.VITE_API_KEY;
+  const API_URL = import.meta.env.VITE_API_URL;
+  const IMAGE_PATH = import.meta.env.VITE_IMAGE_PATH;
   /* States */
   const [movies, setMovies] = useState([]);
   const [searchKey, setSearchKey] = useState('');
@@ -93,10 +95,9 @@ export const MovieSearch = () => {
           onChange={handleInputChange}
         />
         <button type='submit' className='searchButton'>
-          SEARCH - {OTRA}
+          SEARCH
         </button>
       </form>
-
       {/* Movie Banner & Trailer  */}
       <div className='bannerTrailer'>
         {movie ? (
@@ -157,7 +158,6 @@ export const MovieSearch = () => {
           </div>
         ) : null}
       </div>
-
       {/* Movies List */}
       <div className='movieList'>
         {movies.map((movie) => (
