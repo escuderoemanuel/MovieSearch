@@ -2,7 +2,8 @@ import './MovieSearch.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import YouTube from 'react-youtube';
-import { API_URL, API_KEY, IMAGE_PATH } from '../../constants/config.js';
+//import { API_URL, API_KEY, IMAGE_PATH } from '../../constants/config.js';
+import { API_KEY, API_URL, IMAGE_PATH } from '../../../environmentVariables';
 
 export const MovieSearch = () => {
   /* States */

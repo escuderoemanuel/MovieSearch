@@ -14,7 +14,7 @@ node_modules
 
 # Environment Variables
 .env
-
+environmentVariables.js
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
