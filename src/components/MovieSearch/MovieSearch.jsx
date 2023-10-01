@@ -2,9 +2,7 @@ import './MovieSearch.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import YouTube from 'react-youtube';
-import { API_KEY, API_URL, IMAGE_PATH } from 'process.env';
-//import { API_KEY, API_URL, IMAGE_PATH } from '../../../environmentVariables';
-//import { API_URL, API_KEY, IMAGE_PATH } from '../../constants/config.js';
+import { API_URL, API_KEY, IMAGE_PATH, OTRA } from '../../constants/config.js';
 
 export const MovieSearch = () => {
   /* States */
@@ -95,7 +93,7 @@ export const MovieSearch = () => {
           onChange={handleInputChange}
         />
         <button type='submit' className='searchButton'>
-          SEARCH
+          SEARCH - {OTRA}
         </button>
       </form>
 
@@ -142,7 +140,7 @@ export const MovieSearch = () => {
                       className='playTrailerButton'
                       onClick={() => setPlaying(true)}
                       type='button'>
-                      Play Trailer!
+                      Play Trailer
                     </button>
                   ) : (
                     'Sorry, no trailer available'
