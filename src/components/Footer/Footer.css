@@ -16,18 +16,27 @@
 .footerContainer {
   padding: 1rem 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .footerContainer p {
-  margin-bottom: 0.5rem;
-  color: rgb(58, 58, 58);
+  color: rgb(38, 38, 38);
   letter-spacing: -1px;
 }
 
+.footerContainer a {
+  display: flex;
+}
+
 .logoDev {
-  width: 30px;
+  margin-left: .5rem;
+  cursor: pointer;
+  height: 24px;
+  transition: all ease 200ms;
+}
+
+.logoDev:hover {
+  transform: scale(1.05) rotate(7deg);
 }

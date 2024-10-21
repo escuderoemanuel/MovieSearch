@@ -12,7 +12,7 @@ export const MovieSearch = () => {
   const [searchKey, setSearchKey] = useState('');
 
   const [trailer, setTrailer] = useState(null);
-  const [movie, setMovie] = useState({ title: 'Loeading Movies...' });
+  const [movie, setMovie] = useState({ title: 'Loading Movies...' });
   const [playing, setPlaying] = useState(false);
 
   /* Handles */
